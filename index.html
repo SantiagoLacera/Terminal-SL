@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminal-SA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="JS/jquery-3.6.4.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="terminal">
+        <div class="terminal-header">
+          <pre id="terminal-banner"></pre>
+          <div class="terminal-body">
+            <div class="terminal-body-text">
+              <div class="terminal-body-text-line">
+                <span class="welcome-statment">
+                  Welcome to Terminal-SA, an interactive terminal where you can
+                  learn more about me.
+                </span>
+              </div>
+              <div class="terminal-body-text-line">
+                <span class="terminal-body-text-line-text">
+                  Type <span class="help-option">"help"</span> for more
+                  information.</span
+                >
+              </div>
+              <br />
+              <div class="terminal-body-text-line">
+                <a id="command-terminal">User@Home:~$</a>
+                <input type="text" id="command-input" value="" onblur="this.focus()" autofocus/> 
+              </div>
+              <div class="terminal-body-text-line">
+                <pre id="command-prompt"> </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="JS/index.js" type="module"></script>
+  <script src="JS/commands.js" type="module"></script>
+</html>

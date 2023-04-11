@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Inter:wght@400;700&family=Kanit&family=Pacifico&family=Raleway:wght@500&family=Roboto+Mono:ital,wght@1,500&family=Sono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+    font-size: large;
+}
+
+body{
+    background-size: cover;
+    background-color: #2D2727;
+    color: #F9E2AF;
+    margin: 1%;
+}
+
+
+span.help-option{
+    color: #245953;
+    font-weight: bold;
+    text-decoration:dotted;
+}
+
+#terminal-banner{
+    color: #ABC4AA  ;
+}
+
+#command-terminal{
+    color: #7b2869;
+    font-weight: bold;
+}
+
+#command-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #5f8d4e;
+    caret-color: #F9E2AF;
+    overflow: hidden;
+}
+
+
+
