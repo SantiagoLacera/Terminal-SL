@@ -2,21 +2,21 @@ import {
     about,
     banner,
     help,
-    skills
+    skills, skills2,
+    terminal
 } from './commands.js';
-const shield = document.querySelector('.shield');
-const titleBar = shield.querySelector('.title-bar');
-const closeButton = titleBar.querySelector('.close');
-const minimizeButton = titleBar.querySelector('.minimize');
-const maximizeButton = titleBar.querySelector('.maximize');
-const content = shield.querySelector('.content');
 
 let terminal_banner = document.getElementById('terminal-banner');
 let command_terminal = document.getElementById('command-terminal');
 let input = document.getElementById('command-input');
 let output = document.getElementById('command-prompt');
+let terminal_header = document.getElementById('terminal-header');
 
+$(terminal_header).after(terminal);
 $(document).ready(header(banner));
+
+
+
 
 
 document.querySelector('#command-input').addEventListener('keypress', function (e) {
@@ -30,7 +30,7 @@ document.querySelector('#command-input').addEventListener('keypress', function (
                 output.innerHTML = about;
                 break;
             case "skills":
-                output.innerHTML = skills;
+                output.innerHTML = skills + skills2;
                 break;
             case "clear":
                 output.innerHTML = "";
@@ -38,12 +38,15 @@ document.querySelector('#command-input').addEventListener('keypress', function (
             case "banner":
                 output.innerHTML = banner;
                 break;
+            case "command":
+                output.innerHTML = terminal;
+                break;
             default:
                 output.innerHTML = "Command not found";
                 break;
         }
-        input.value = "";
-        output.innerHTML += "<br>";        
+
+        output.innerHTML += terminal;
     }
 });
 

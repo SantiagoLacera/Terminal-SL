@@ -1,4 +1,10 @@
 
+export const terminal = [
+    '<br><span style=\"color: #7b2869;\">User@Home:~$</span>'
+]
+
+
+
 export const banner =
     [
         "                   .                                                                                                                  " + "<br>" +
@@ -14,7 +20,7 @@ export const banner =
         "<__________\\______)\\__)                                                                                                               " + "<br>" +
         " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                        " + "<br>" +
         " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                    " + "<br>" +
-        " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                              "
+        " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                              " + "<br>" 
     ];
 
 
@@ -49,12 +55,24 @@ export const about = [
 export const skills = [
     "<span style=\"color: #ABC4AA;\">" +
     "<br>" +
-    "**Programming Languages:**" + "<br>" + "<br>" +
-    "     <span style=\"color: #F9E2AF;\"><</span>HTML/CSS/JS<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
-    "     <span style=\"color: #F9E2AF;\"><</span>Linux<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
-    "     <span style=\"color: #F9E2AF;\"><</span>Python<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
-    "     <span style=\"color: #F9E2AF;\"><</span>C<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "<span style=\"color: #F45050;\">**Programming Languages**</span>" + "<span style=\"color: #F45050;\">                         **Frameworks/Libraries**</span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>HTML/CSS/JS<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                      <</span>React<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>Java<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                             <</span>Node<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>Python<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                           <</span>Express<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>C<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                                <</span>Bootstrap<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
     "</span >"
 ]
+
+export const skills2 = [
+    "<span style=\"color: #ABC4AA;\">" +
+    "<br>" +
+    "<span style=\"color: #F45050;\">**Tools**</span>" + "<span style=\"color: #F45050;\">                                         **Databases**</span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>Git<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                              <</span>MySQL<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>VSCode<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                           <</span>MongoDB<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>GitHub<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                           <</span>PostgreSQL<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>SalesForce<span style=\"color: #F9E2AF;\">></span>" + "<span style=\"color: #F9E2AF;\">                                       <</span>SQLite<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "</span >"
+]
+
 
 
