@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terminal-SA</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="JS/jquery-3.6.4.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terminal-SL</title>
+  <link rel="icon" href="Images/terminal_icon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="JS/jquery-3.6.4.js"></script>
   </head>
-  <body>
-    <div class="container">
-      <div class="terminal">
-        <div class="terminal-header">
-          <pre id="terminal-banner"></pre>
-          <div class="terminal-body">
-            <div class="terminal-body-text">
-              <div class="terminal-body-text-line">
-                <span class="welcome-statment">
-                  Welcome to Terminal-SA, an interactive terminal where you can
-                  learn more about me.
-                </span>
-              </div>
-              <div class="terminal-body-text-line">
-                <span class="terminal-body-text-line-text">
-                  Type <span class="help-option">"help"</span> for more
-                  information.</span
-                >
-              </div>
-              <br />
-              <div class="terminal-body-text-line">
-                <a id="command-terminal">User@Home:~$</a>
-                <input type="text" id="command-input" value="" onblur="this.focus()" autofocus/> 
-              </div>
-              <div class="terminal-body-text-line">
-                <pre id="command-prompt"> </pre>
-              </div>
-            </div>
-          </div>
-        </div>
+
+<body>
+  <div class="shield">
+    <div class="title-bar">
+      <div class="title">./Terminal</div>
+      <div class="buttons">
+        <div class="button close"></div>
+        <div class="button minimize"></div>
+        <div class="button maximize"></div>
       </div>
     </div>
-  </body>
-  <script src="JS/index.js" type="module"></script>
-  <script src="JS/commands.js" type="module"></script>
+    <br>
+  <div class="container">
+    <div class="terminal-header">
+      <pre id="terminal-banner"></pre>
+      <p class="welcome-statement">
+        Welcome to Terminal-SL, an interactive terminal where you can
+        learn more about me.
+      </p>
+      <span class="terminal-body-text-line-text">
+        Type <span class="help-option">"help"</span> for more
+        information.</span>
+        </div>
+        <br />
+    <a id="command-terminal">User@Home:~$</a>
+    <input type="text" id="command-input" value="" autofocus />
+    <pre id="command-prompt"> </pre>
+    </div>
+    </div>
+</body>
+<script src="JS/index.js" type="module"></script>
+<script src="JS/commands.js" type="module"></script>
 </html>
