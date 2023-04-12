@@ -17,20 +17,44 @@ export const banner =
         " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                              "
     ];
 
-export const about = 
-[
-    "<br>"+
-    "My name is Santiago Lacera, I'm an IT major & current UCF student" + "<br>" +
-    "love programming and problem solving" + "<br>" +
-    "looking for internships or Part-time job for Summer 2023"
-];
 
 export const help = [
-   "<br>" +
-   " 'about' " + "<br>" + 
-   " 'clear' " + "<br>" + 
-   " 'help' " + "<br>" + 
-   " 'projects' " + "<br>" + 
-   " 'resume' " + "<br>" + 
-   " 'skills' " + "<br>"
-];
+    "<br>" +
+    "    '<span style=\"color: #245953;\">about</span>'       '<span style=\"color: #ABC4AA;\">Learn a bit more about me</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">clear</span>'       '<span style=\"color: #ABC4AA;\">Clears the terminal</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">help</span>'        '<span style=\"color: #ABC4AA;\">Displays this help message</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">banner</span>'      '<span style=\"color: #ABC4AA;\">Displays the banner</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">skills</span>'      '<span style=\"color: #ABC4AA;\">Displays my skills</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">projects</span>'    '<span style=\"color: #ABC4AA;\">Displays my projects</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">contact</span>'     '<span style=\"color: #ABC4AA;\">Displays my contact info</span>'" + "<br>" +
+    "    '<span style=\"color: #245953;\">resume</span>'      '<span style=\"color: #ABC4AA;\">Displays my resume</span>'" + "<br>"
+]
+
+export const about = [
+    "<span style=\"color: #ABC4AA;\">" +
+    "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>Hello, my name is Santiago Lacera and I'm an IT Undergrad at the University of Central Florida.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>I have been interested in technology and development since I was kid, exploring this field ever since.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>I am passionate about learning new things and staying up-to-date with the latest advancements in technology.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>In addition to my technical skills, I have over 5 years of CS experience and 2+ years in IT-related roles<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>I am also bilingual in English and Spanish, which has proven to be a valuable asset in many of my previous jobs.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>As an IT major, I have developed a strong foundation in programming and problem-solving.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>I'm always looking for opportunities to apply these skills in real-world scenarios and looking for ways to improve<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>I am particularly interested in web development and cybersecurity, and I have completed several online courses.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>Currently, I am looking for internships or part-time job for the Summer of 2023, where to develop my skills and experience.<span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "<span style=\"color: #F9E2AF;\">'</span>If you have any opportunities that you think may be a good fit, please feel free to contact me!<span style=\"color: #F9E2AF;\"> Type --></span> <span style=\"color: #F9E2AF;\">'</span><span style=\"color: #245953;\">contact</span><span style=\"color: #F9E2AF;\">'</span>" + "<br>" +
+    "</span >"
+]
+
+export const skills = [
+    "<span style=\"color: #ABC4AA;\">" +
+    "<br>" +
+    "**Programming Languages:**" + "<br>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>HTML/CSS/JS<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>Linux<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>Python<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "     <span style=\"color: #F9E2AF;\"><</span>C<span style=\"color: #F9E2AF;\">></span>" + "<br>" +
+    "</span >"
+]
+
+
