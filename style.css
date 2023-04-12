@@ -7,12 +7,29 @@
     font-family: 'Roboto Mono';
     font-size: large;
 }
+html, body{
+    background-color: #2D2727;
+}
 
-body{
+.shield{
     background-size: cover;
     background-color: #2D2727;
     color: #F9E2AF;
     margin: 1%;
+    border: gray 15px solid;
+    border-radius: 10px;
+    height: calc(100% - 2%);
+    width: calc(100% - 2%);
+    position: absolute; 
+    box-sizing: border-box;
+}
+
+
+.container{
+    justify-content: center;
+    padding: 1%;
+    background-color: #2D2727;
+    color: #F9E2AF;
 }
 
 
@@ -40,5 +57,61 @@ span.help-option{
     overflow: hidden;
 }
 
+#command-prompt{
+    color: #F9E2AF;
+    font-style: oblique;
+    width: 100%;  
+}
+
+
+
+.title-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: #3C3836;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .title {
+    font-size: 16px;
+    color: #F9E2AF;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .close {
+    background-color: #FB4934;
+  }
+  
+  .minimize {
+    background-color: #FABD2F;
+  }
+  
+  .maximize {
+    background-color: #B8BB26;
+  }
+  
+  .content {
+    height: calc(100% - 60px);
+    overflow: auto;
+  }
 
 
