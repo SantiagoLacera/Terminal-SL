@@ -9,7 +9,7 @@
   <link rel="icon" href="Images/terminal_icon.png" />
   <link rel="stylesheet" href="style.css" />
   <script src="JS/jquery-3.6.4.js"></script>
-  </head>
+</head>
 
 <body>
   <div class="shield">
@@ -22,23 +22,27 @@
       </div>
     </div>
     <br />
-  <div class="container">
-    <div id="terminal-header">
-      <pre id="terminal-banner"></pre>
-      <p class="welcome-statement">
-        Welcome to Terminal-SL, an interactive terminal where you can
-        learn more about me.
-      </p>
-      <span class="terminal-body-text-line-text">
-        Type <span class="help-option">"help"</span> for more
-        information.</span>
-        </div>
-    <a id="command-terminal"></a>
-    <input type="text" id="command-input" value="" autofocus />
-    <pre id="command-prompt"> </pre>
+    <div class="container">
+      <div id="terminal-header">
+        <pre id="terminal-banner"></pre>
+        <p class="welcome-statement">
+          Welcome to Terminal-SL, an interactive terminal where you can
+          learn more about me.
+        </p>
+        <span class="terminal-body-text-line-text">
+          Type <span class="help-option">"help"</span> for more
+          information.</span>
+      </div>
+      <pre id="terminal-prebody"></pre>
+      <div id="terminal-body">
+        <br />
+        <p id="command-terminal">User@Home:~$ <input type="text" id="command-input" value="" autofocus /></p>
+        <pre id="command-prompt"> </pre>
+      </div>
     </div>
-    </div>
+  </div>
 </body>
 <script src="JS/index.js" type="module"></script>
 <script src="JS/commands.js" type="module"></script>
+
 </html>
